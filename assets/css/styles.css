@@ -255,8 +255,12 @@ img {
     font-size: 0.9rem;
     color: #777;
     margin-top: 4px;
+    line-height: 1.4;
 }
-
+.skills__text-block {
+    display: flex;
+    flex-direction: column; /* empile le titre et la description */
+}
 .skills__container {
   row-gap: 2rem;
   text-align: center;
@@ -284,8 +288,12 @@ img {
   color: var(--first-color);
 }
 .skills__names {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: flex-start; /* aligne l’icône en haut */
+    text-align: left;
+}
+.skills__name {
+    font-weight: 600;
 }
 .skills__bar {
   position: absolute;

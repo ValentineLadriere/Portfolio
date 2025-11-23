@@ -481,3 +481,19 @@ img {
     width: 450px;
   }
 }
+
+.home__button {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.home__button:hover {
+    box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px);
+}
